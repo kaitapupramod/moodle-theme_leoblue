@@ -1,6 +1,5 @@
-
  LEOBLUE THEME:
 ---------------
 
-- Customised theme with cutom icons.
+- Customised theme with custom icons.
 - First Release.
