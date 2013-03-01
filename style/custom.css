@@ -1,0 +1,95 @@
+
+#page
+{
+font-size: 100%;
+}
+
+#page-header{
+
+background-color: lightgrey !important;
+}
+
+.headingblock
+{
+background-color: #8ccceb !important;
+}
+
+#pagewrapper{
+background-color: #f2f2f2;
+border:2px solid lightgrey;
+width : 97% !important;
+position:absolute;
+left:20px;
+right:20px;
+
+}
+
+.yui3-menu ul, .yui3-menu li{
+    
+    margin-top: 10px !important;
+    
+}
+
+#page-footer .homelink, #page-footer .sitelink{
+   padding: 5px 0;
+    
+}
+
+.userimg{
+    margin-top:5px;
+}
+
+.headermenu{
+    border:1px solid #FFF;
+    padding:5px;
+    background-color: #FFF;
+    color:#000000;
+      -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+
+border-bottom-color: #7FCFF3;
+border-left-color: #7FCFF3;
+font-size: 11px;
+    }
+    
+    .headermenu a:link, a:visited{
+     color:#FF0000 !important;
+    }
+    
+    a:visited{
+        color:#0000CD !important;
+    }
+
+#region-main .region-content .header{
+    background:#8CCCEB;
+    font-size:12px;
+}
+
+#region-main .region-content .content{
+    font-size:10px;
+}
+
+.coursebox{
+    padding: 10px;
+}
+
+.yui3-menu li{
+    margin-left:10px;
+   
+border-right:1px solid #ADEAEA;
+}
+
+.block_navigation .block_tree li.item_with_icon > p img, 
+.block_navigation .block_tree 
+.type_activity > p.tree_item.active_tree_node img,
+.block_navigation .block_tree li > p.hasicon img,
+.block_settings .block_tree li.item_with_icon > p img{
+     top: 5px;
+     height:8px !important;
+     width:8px;
+}
+
+.maincalendar .calendarmonth td, .maincalendar .calendarmonth th {
+    border-color: #545454;
+}

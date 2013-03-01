@@ -1,0 +1,142 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea { font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; }
+
+/* Header 
+-------------------------*/
+
+#page-header-wrapper { margin:0 50px; }
+
+#page-header { float:none; }
+#page-header .headermain { margin:0.75em 0;font-size:2em; }
+#page-header .headermenu a:hover { color:#fff; }
+
+
+#page-site-index .headermain { margin:0.85em 0;font-size:2.5em; }
+#course-header { margin:0 50px; }
+
+/* Menu Navigation 
+--------------------------*/
+
+#page-navigation { margin:0;padding:0 40px;font-size:1.1em; }
+#page-navigation li { list-style:none;float:left; }
+#page-navigation a { display:block;padding:5px 10px; }
+
+
+/* Breadcrumb 
+---------------------------*/
+
+.navbar { padding: 5px 12px; }
+.navbar .breadcrumb { font-size:0.9em;color:#555; margin-top: 10px; }
+
+/* Content 
+---------------------------*/
+
+#page-content-wrapper { margin:10px 15px; }
+
+/* Tabs 
+---------------------------*/
+
+.tabtree .tabrow0 li.here a { background:#fff url([[pix:theme|gradient-sb]]) repeat-x 0 0; }
+.tabtree .tabrow0 .tabrow1 li a {background: none !important;}
+
+/* User
+---------------------------*/
+
+.userinfobox .content {border-width: 2px;background: url([[pix:theme|gradient-sb]]) repeat-x 0 0; }
+
+/* Forms
+------------------------*/
+
+.mform fieldset {border-color: #ddd;}
+.mform legend {border: 1px solid #ddd;padding: 2px 7px;background: url([[pix:theme|gradient-sb]]) repeat-x 0 -25%;}
+
+/* Footer
+--------------------------*/
+
+/*#page-footer { margin:25px 0; }
+#page-footer .logininfo  { margin: em 0; }*/
+#page-footer { background-color: #FFFFFF; }
+#page-footer .logininfo  { background-color:#8CCCEB;-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+ padding: 5px 0;
+margin-top:5px;}
+
+#course-footer { margin:0 50px; }
+
+/* custum menu */
+#custommenu {
+    margin:0 50px;
+}
+
+#custommenu,
+#custommenu .yui3-menu,
+#custommenu .yui3-menu-content {
+    border-width:0;
+}
+
+#custommenu {
+  height:40px;
+  margin: 0 auto;
+  width: 100%;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+background:url([[pix:theme|menu_centre]]) repeat-x 0 30%;
+}
+
+#custommenu .yui3-menu-label,
+#custommenu .yui3-menuitem-content {
+    border-width:0;
+    color:red;
+}
+
+#custommenu .yui3-menu-content .yui3-menu-content {
+    border: 1px solid #ccc;
+    border-top-width: 0;
+   background-color: #098DD7;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+/*    margin-top: 3px;*/
+	
+}
+
+#custommenu .yui3-menu-content .yui3-menu-content .yui3-menu-content {
+    border-top: 1px solid #ccc;
+}
+
+#custommenu .yui3-menu-content .yui3-menu-content .yui3-menuitem-content,
+#custommenu .yui3-menu-content .yui3-menu-content .yui3-menu-label {
+/*    padding-top: 2px;*/
+
+    
+}
+
+#custommenu .yui3-menu-label,
+#custommenu .yui3-menuitem-content {
+color:#FFF;
+font-weight:bold;
+ font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+        
+}
+
+#custommenu .yui3-menu .yui3-menuitem-active,
+#custommenu .yui3-menu-label-menuvisible,
+#custommenu .yui3-menu-label-active,
+#custommenu .yui3-menuitem-active .yui3-menuitem-content {
+/*    background-color: #0884C6;*/
+    
+
+}
+
+#custommenu .yui3-menu-label-active,
+#custommenu .yui3-menu-label-menuvisible,
+#custommenu .yui3-menuitem-active .yui3-menuitem-content {
+    color:#FFF;
+}
+
+#custommenu .yui3-menu-horizontal.javascript-disabled .yui3-menu-content {
+    border-width:0;
+}
+
+    
